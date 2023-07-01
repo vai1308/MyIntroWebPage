@@ -31,7 +31,7 @@
       background-color: gray;
       font-size: large;
     }
-    button{
+    .button{
       background-color: orange;
       border-radius: 10px;
     }
@@ -51,7 +51,7 @@
           content = '<h1>Information</h1><p>This page gives a brief introduction of me.</p><p>I am Vaibhav Gautam, a B.Tech(CSE) student in Noida International University,Greater Noida.</p><p>My technical skills and languages are as follows:<br><ul><li>C programming</li><br><li>Python</li><br><li>HTML</li><br><li>CSS</li><br><li>Javascript Fundamentals</li><br><li>Cloud Computing Fundamentals</li></ul></p><p>My soft skills are as follows:<br><ul><li>English Speaking</li><br><li>English Writing</li><br><li>Team Management</li><br><li>Communication</li><br><li>Time Management</li><br><li>Critical and Logical Thinking</li><br><li>Problem Solving</li></ul></p>';
           break;
         case 'guide':
-          content = '<h1>Guide</h1><p>Step-by-step guide will be shown here.</p><p>Feel free to contact me for any further assistance.<br>My contact details are available in the "contact" section</p><p>Add your Questions here please.<br><textarea rows="5" cols="50">Enter your Questions here</textarea><br><button>Submit</button></p>';
+          content = '<h1>Guide</h1><p>Step-by-step guide will be shown here.</p><p>Feel free to contact me for any further assistance.<br>My contact details are available in the "contact" section</p><p>Add your Questions here please.<br><textarea rows="5" cols="50" placeholder="Enter your Question"></textarea><br><input type="submit" value="Submit" class="button"></p>';
           break;
         default:
           content = '<h1>Invalid Component</h1><p>Please select a valid component.</p>';
